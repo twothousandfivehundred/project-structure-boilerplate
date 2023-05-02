@@ -1,12 +1,12 @@
-// import useMediaQuery from '~/hooks/useMediaQuery';
-// import styling from '~/services/styling';
-// import ContentWrapper from '~/components/ContentWrapper';
-// import Typography from '~/components/Typography';
+import useMediaQuery from '~/hooks/useMediaQuery';
+import styling from '~/services/styling';
+import ContentWrapper from '~/components/ContentWrapper';
+import Typography from '~/components/Typography';
 
-import useMediaQuery from '../../../../hooks/useMediaQuery';
-import styling from '../../../../services/styling';
-import ContentWrapper from '../../../ContentWrapper';
-import Typography from '../../../Typography';
+// import useMediaQuery from '../../../../hooks/useMediaQuery';
+// import styling from '../../../../services/styling';
+// import ContentWrapper from '../../../ContentWrapper';
+// import Typography from '../../../Typography';
 import TTFHBrand from './components/TTFHBrand';
 import useStyles from './styles';
 
