@@ -1,0 +1,33 @@
+{
+  "name": "React App",
+  "dockerComposeFile": "docker-compose.yml",
+  "service": "react-app-dev-environment",
+  "workspaceFolder": "/workspaces/${localWorkspaceFolderBasename}",
+  "mounts": [
+    "source=${localWorkspaceFolderBasename}-node_modules,target=${containerWorkspaceFolder}/node_modules,type=volume",
+    "source=//./pipe/docker_engine,target=/var/run/docker.sock,type=bind"
+  ],
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "steoates.autoimport",
+        "esbenp.prettier-vscode",
+        "jawandarajbir.react-vscode-extension-pack"
+      ],
+      "settings": {
+        "eslint.enable": true,
+        "editor.codeActionsOnSave": {
+          "source.fixAll.eslint": true
+        },
+        "editor.formatOnSave": true,
+        "prettier.eslintIntegration": true,
+        "prettier.singleQuote": true,
+        "prettier.trailingComma": "es5"
+      }
+    }
+  },
+  "postCreateCommand": "npm install",
+  "forwardPorts": [
+    3000
+  ]
+}
