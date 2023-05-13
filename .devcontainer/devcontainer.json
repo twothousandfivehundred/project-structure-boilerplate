@@ -5,7 +5,8 @@
   "workspaceFolder": "/workspaces/${localWorkspaceFolderBasename}",
   "mounts": [
     "source=${localWorkspaceFolderBasename}-node_modules,target=${containerWorkspaceFolder}/node_modules,type=volume",
-    "source=//./pipe/docker_engine,target=/var/run/docker.sock,type=bind"
+    "source=//./pipe/docker_engine,target=/var/run/docker.sock,type=bind",
+    "source=/var/run/docker.sock,target=/var/run/docker.sock,type=bind"
   ],
   "customizations": {
     "vscode": {
