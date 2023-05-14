@@ -8,7 +8,7 @@
     "@testing-library/user-event": "^13.5.0",
     "@types/enzyme": "^3.10.13",
     "@types/jest": "^27.5.2",
-    "@types/lodash": "^4.14.194",
+    "@types/lodash-es": "^4.14.194",
     "@types/node": "^16.18.25",
     "@types/react": "^18.2.0",
     "@types/react-dom": "^18.2.1",
@@ -29,7 +29,7 @@
   "dependencies": {
     "@craco/craco": "^7.1.0",
     "clsx": "^1.2.1",
-    "lodash.isequal": "^4.5.0",
+    "lodash-es": "^4.17.21",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-jss": "^10.10.0",
