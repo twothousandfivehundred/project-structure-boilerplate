@@ -1,3 +1,3 @@
-import lodashIsEqual from 'lodash.isequal';
+import { isEqual } from 'lodash-es';
 
-export const isEqual = lodashIsEqual;
+export { isEqual };
