@@ -1,0 +1,20 @@
+version: '3.9'
+
+services:
+  react-app-dev-environment:
+    build:
+      context: ..
+      dockerfile: .devcontainer/Dockerfile
+    ports:
+      - '3000:3000'
+    volumes:
+        - ../..:/workspaces:cached
+    networks:
+    - develop-net
+
+    # Overrides default command so things don't shut down after the process ends.
+    command: sleep infinity
+
+networks:
+    develop-net:
+        driver: bridge
