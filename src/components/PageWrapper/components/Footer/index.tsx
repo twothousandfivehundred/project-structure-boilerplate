@@ -1,6 +1,6 @@
 import clsx from 'clsx';
 
-import { footerMenu, socialsMenu } from '../../../../constants/menus';
+import { footerMenu, socialsMenu } from '~/constants/menus';
 import useStyles from './styles';
 import { FooterProps } from './types';
 import FooterMenu from './components/FooterMenu';

@@ -1,4 +1,4 @@
-import { ModalContextValue } from '../../../../contexts/ModalContext/types';
+import { ModalContextValue } from '~/contexts/ModalContext/types';
 
 export const getOnBackdropClick = (
   modals: ModalContextValue['modals'],

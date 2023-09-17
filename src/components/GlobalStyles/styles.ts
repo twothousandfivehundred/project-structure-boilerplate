@@ -1,6 +1,6 @@
 import { createUseStyles } from 'react-jss';
 import typographyConstants from '../Typography/constants';
-import styling from '../../services/styling';
+import styling from '~/services/styling';
 
 export default createUseStyles({
   '@global': {

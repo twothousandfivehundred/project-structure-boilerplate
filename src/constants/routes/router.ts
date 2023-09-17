@@ -5,7 +5,7 @@ import { Entries } from 'type-fest';
 import routeSceneMap from './routeToSceneMap';
 import routes from '.';
 import { LazyRoute } from './types';
-import FourOhFour from '../../scenes/404';
+import FourOhFour from '~/scenes/404';
 
 const getRouteElement = (
   routeKey: keyof typeof routes,

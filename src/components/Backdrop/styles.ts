@@ -1,5 +1,5 @@
 import { createUseStyles } from 'react-jss';
-import styling from '../../services/styling';
+import styling from '~/services/styling';
 
 export default createUseStyles(
   {

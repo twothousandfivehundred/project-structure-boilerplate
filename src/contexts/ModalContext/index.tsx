@@ -2,7 +2,7 @@ import { createContext, useMemo } from 'react';
 
 import useModalManagement from './hooks/useModalManagement';
 import { ModalContextProps, ModalContextValue } from './types';
-import { EMPTY_ARR, NOOP } from '../../constants/emptys';
+import { EMPTY_ARR, NOOP } from '~/constants/emptys';
 
 export const ModalContext = createContext<ModalContextValue>({
   closeModal: NOOP,

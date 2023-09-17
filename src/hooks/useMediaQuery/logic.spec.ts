@@ -1,5 +1,5 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
-import withGlobalProperty from '../../services/testing/jest/withGlobalProperty';
+import withGlobalProperty from '~/services/testing/jest/withGlobalProperty';
 import { getMediaMatch } from './logic';
 
 beforeEach(() => {

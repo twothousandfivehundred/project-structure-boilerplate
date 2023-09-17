@@ -1,4 +1,4 @@
-import { Modal } from '../../contexts/ModalContext/types';
+import { Modal } from '~/contexts/ModalContext/types';
 
 export type ModalContentProps = {
   preventClose: (e: React.MouseEvent<HTMLDivElement, MouseEvent>) => void;

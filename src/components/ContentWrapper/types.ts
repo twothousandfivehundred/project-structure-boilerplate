@@ -1,4 +1,4 @@
-import { PolymorphicComponentProps } from '../../types';
+import { PolymorphicComponentProps } from '~/types';
 
 type ContentWrapperProps = React.PropsWithChildren<{
   className?: string;

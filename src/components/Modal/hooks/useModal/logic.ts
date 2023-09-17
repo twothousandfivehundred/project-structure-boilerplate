@@ -1,4 +1,4 @@
-import { ModalContextValue } from '../../../../contexts/ModalContext/types';
+import { ModalContextValue } from '~/contexts/ModalContext/types';
 import { ModalProps } from '../../types';
 
 export const handleOnClose = (onClose: ModalContextValue['closeModal']) => {

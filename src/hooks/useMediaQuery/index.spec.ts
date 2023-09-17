@@ -1,5 +1,5 @@
 import useMediaQuery from '.';
-import { createHookTestMethods } from '../../services/testing/react/reactUtils';
+import { createHookTestMethods } from '~/services/testing/react/reactUtils';
 import { getMediaMatch } from './logic';
 
 jest.mock('./logic', () => ({

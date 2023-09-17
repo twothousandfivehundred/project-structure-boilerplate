@@ -1,5 +1,5 @@
-import Link from '../../../../../Link';
-import Typography from '../../../../../Typography';
+import Link from '~/components/Link';
+import Typography from '~/components/Typography';
 import useStyles from './styles';
 import { FooterMenuProps } from './types';
 

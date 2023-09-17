@@ -7,7 +7,7 @@ import {
   getRegisterModal,
   handleModalsChange,
 } from './logic';
-import { EMPTY_ARR } from '../../../../constants/emptys';
+import { EMPTY_ARR } from '~/constants/emptys';
 
 const useModalManagement = () => {
   const [topModal, setTopModal] = useState<ModalContextValue['topModal']>();

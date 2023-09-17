@@ -1,6 +1,6 @@
 import { ModalContentProps } from '../../types';
 import useStyles from './styles';
-import Typography from '../../../Typography';
+import Typography from '~/components/Typography';
 
 const DefaultModalContent = ({
   preventClose,

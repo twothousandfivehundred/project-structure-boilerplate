@@ -1,4 +1,4 @@
-import { PolymorphicComponentProps } from '../../types';
+import { PolymorphicComponentProps } from '~/types';
 import typographyConstants from './constants';
 
 export type TypographyProps = {

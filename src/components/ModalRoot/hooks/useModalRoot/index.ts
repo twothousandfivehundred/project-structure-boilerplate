@@ -1,6 +1,6 @@
 import { useContext, useMemo } from 'react';
 
-import { ModalContext } from '../../../../contexts/ModalContext';
+import { ModalContext } from '~/contexts/ModalContext';
 import { getOnBackdropClick } from './logic';
 
 const useModalRoot = () => {

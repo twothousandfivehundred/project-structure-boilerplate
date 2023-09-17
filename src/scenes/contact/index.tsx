@@ -1,6 +1,6 @@
-import PageWrapper from '../../components/PageWrapper';
-import { RouteProps } from '../../constants/routes/types';
-import helloThere from '../../assets/images/page-heros/hellotherethumb.webp';
+import PageWrapper from '~/components/PageWrapper';
+import { RouteProps } from '~/constants/routes/types';
+import helloThere from '~/assets/images/page-heros/hellotherethumb.webp';
 import useStyles from './styles';
 
 const Contact = ({ routeKey, title }: RouteProps) => {

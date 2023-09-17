@@ -1,4 +1,4 @@
-import styling from '../../services/styling';
+import styling from '~/services/styling';
 
 const body = {
   ...styling.typography.theme.sansSerif.regular.xs,

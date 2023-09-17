@@ -42,7 +42,10 @@ module.exports = {
     '@typescript-eslint/no-unused-vars': 'off',
 
     'import/no-unresolved': 'off',
-    'import/extensions': ['error', { ts: 'never', tsx: 'never' }],
+    'import/extensions': [
+      'error',
+      { ts: 'never', tsx: 'never', webp: 'always' },
+    ],
 
     'no-shadow': 'off',
 

@@ -1,6 +1,6 @@
-import PageWrapper from '../../components/PageWrapper';
-import { RouteProps } from '../../constants/routes/types';
-import may from '../../assets/images/page-heros/may.jpeg';
+import PageWrapper from '~/components/PageWrapper';
+import { RouteProps } from '~/constants/routes/types';
+import may from '~/assets/images/page-heros/may.jpeg';
 import useStyles from './styles';
 
 const Home = ({ routeKey, title }: RouteProps) => {

@@ -1,5 +1,5 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
-import { NOOP } from '../../../constants/emptys';
+import { NOOP } from '~/constants/emptys';
 
 const withGlobalProperty = (
   propertyName: any,

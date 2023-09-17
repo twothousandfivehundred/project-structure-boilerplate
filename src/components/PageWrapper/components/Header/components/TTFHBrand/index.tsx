@@ -1,4 +1,4 @@
-import styling from '../../../../../../services/styling';
+import styling from '~/services/styling';
 import { TTFHBrandProps } from './types';
 
 const TTFHBrand = ({

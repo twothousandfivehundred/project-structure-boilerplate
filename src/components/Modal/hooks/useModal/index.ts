@@ -1,6 +1,6 @@
 import { MouseEvent, useCallback, useContext, useMemo } from 'react';
 
-import { ModalContext } from '../../../../contexts/ModalContext';
+import { ModalContext } from '~/contexts/ModalContext';
 import { handleOnClose, handleOnExited } from './logic';
 import { ModalProps } from '../../types';
 
