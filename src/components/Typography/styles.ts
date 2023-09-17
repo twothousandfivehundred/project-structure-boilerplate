@@ -1,8 +1,19 @@
 import { createUseStyles } from 'react-jss';
 import typographyConstants from './constants';
+import styling from '../../services/styling';
 
 export default createUseStyles(
   {
+    '@global': {
+      ':root': {
+        '--typographyScale': 1.2,
+      },
+      [styling.breakpoints.context.tabletUpString]: {
+        ':root': {
+          '--typographyScale': 1,
+        },
+      },
+    },
     typography: {
       '& strong': {
         fontWeight: 700,

@@ -5,7 +5,9 @@ const normalizeStyles = createUseStyles({
     html: { lineHeight: 1.15, WebkitTextSizeAdjust: '100%' },
     body: { margin: 0 },
     main: { display: 'block' },
-    h1: { fontSize: '2em', margin: '0.67em 0' },
+    'h1,h2,h3,h4,h5,h6': {
+      margin: 0,
+    },
     hr: { boxSizing: 'content-box', height: 0, overflow: 'visible' },
     pre: { fontFamily: 'monospace,monospace', fontSize: '1em' },
     a: { backgroundColor: 'transparent' },

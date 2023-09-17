@@ -1,4 +1,5 @@
 import { createUseStyles } from 'react-jss';
+import typographyConstants from '../Typography/constants';
 import styling from '../../services/styling';
 
 export default createUseStyles({
@@ -7,12 +8,11 @@ export default createUseStyles({
       boxSizing: 'border-box',
     },
     html: {
-      fontSize: '62.5%',
+      fontSize: 'calc(62.5% * var(--typographyScale, 1))',
       height: '-webkit-fill-available',
     },
     body: {
-      fontFamily: styling.fonts.sansSerif.fontFamily,
-      fontWeight: styling.fonts.sansSerif.weights.regular,
+      ...typographyConstants.body,
       backgroundColor: styling.colors.context.background,
       color: styling.colors.context.color,
       minWidth: styling.sizes.context.columnW,
