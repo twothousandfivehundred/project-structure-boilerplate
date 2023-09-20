@@ -21,7 +21,7 @@ export function transformFonts<T extends Record<string, FontFace>>(
 ): Fonts<T> {
   return Object.entries(fontFaces).reduce((result, [fontName, fontFace]) => {
     const { fontFamily, weights, sizes } = fontFace;
-    const cleanedFontName = fontName.replace(/['\s]/g, '');
+    const cleanedFontName: string = fontName.replace(/['\s]/g, '');
 
     const fontWeights = Object.entries(weights).reduce(
       (weightResult, [weightName, fontWeight]) => {
@@ -61,6 +61,8 @@ const theme = transformFonts({
   sansSerif: fonts.theme.sansSerif,
 });
 
-export default {
+const typography = {
   theme,
 };
+
+export default typography;

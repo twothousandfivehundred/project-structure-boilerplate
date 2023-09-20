@@ -1,5 +1,15 @@
 const columnW = 300;
 const guttering = 32;
+const spacing = {
+  '3xs': 6,
+  '2xs': 12,
+  xs: 18,
+  sm: 24,
+  md: 36,
+  lg: 40,
+  xl: 72,
+  '2xl': 90,
+};
 
 const topBarH = 90;
 
@@ -17,6 +27,9 @@ const columns = (
   (includeEdgeGutters ? 2 * gutteringWidth : 0);
 
 export default {
+  theme: {
+    spacing,
+  },
   context: {
     container: {
       minWidth: columns(1, guttering),
@@ -31,6 +44,9 @@ export default {
       sm: iconSizeSm,
       md: iconSizeMd,
       lg: iconSizeLg,
+    },
+    panel: {
+      radius: 12,
     },
     modal: {
       maxWidth: 972,
