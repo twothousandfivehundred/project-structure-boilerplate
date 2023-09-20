@@ -25,20 +25,14 @@ export default createUseStyles(
     'variant-body': {
       ...typographyConstants.body,
     },
-    'variant-heading1': {
-      ...typographyConstants.heading1,
+    'variant-modalHeader': {
+      ...typographyConstants.modalHeader,
     },
-    'variant-heading3': {
-      ...typographyConstants.heading3,
+    'variant-siteBranding': {
+      ...typographyConstants.siteBranding,
     },
-    'variant-heading4': {
-      ...typographyConstants.heading4,
-    },
-    'variant-heading5': {
-      ...typographyConstants.heading5,
-    },
-    'variant-heading6': {
-      ...typographyConstants.heading6,
+    'variant-pageTitle': {
+      ...typographyConstants.pageTitle,
     },
     'variant-footerLink': {
       ...typographyConstants.footerLink,

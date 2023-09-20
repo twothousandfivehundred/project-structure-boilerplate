@@ -1,5 +1,6 @@
 /* eslint-disable react/jsx-props-no-spreading */
 import clsx from 'clsx';
+import { memo } from 'react';
 import useStyles from './styles';
 import { PolymorphicTypographyProps } from './types';
 
@@ -29,4 +30,4 @@ const Typography = <C extends React.ElementType = 'p'>({
   );
 };
 
-export default Typography;
+export default memo(Typography);

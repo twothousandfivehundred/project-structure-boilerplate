@@ -1,4 +1,4 @@
-import { PolymorphicComponentProps } from '~/types';
+import { PolymorphicComponentProps, PolymorphicRef } from '~/types';
 import typographyConstants from './constants';
 
 export type TypographyProps = {
@@ -10,3 +10,5 @@ export type TypographyProps = {
 
 export type PolymorphicTypographyProps<C extends React.ElementType> =
   PolymorphicComponentProps<C, TypographyProps>;
+
+export type TypographyRef<C extends React.ElementType> = PolymorphicRef<C>;

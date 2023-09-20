@@ -4,32 +4,21 @@ const body = {
   ...styling.typography.theme.sansSerif.regular.xs,
 };
 
-const heading1 = {
-  ...styling.typography.theme.sansSerif.bold['4xl'],
-  marginBottom: '1.82rem',
-  textTransform: 'uppercase',
-};
-
-const heading3 = {
+const siteBranding = {
   ...styling.typography.theme.sansSerif.bold['2xl'],
   marginBottom: '1.82rem',
   textTransform: 'uppercase',
 };
 
-const heading4 = {
+const modalHeader = {
   ...styling.typography.theme.sansSerif.bold.xl,
   textTransform: 'uppercase',
   marginBottom: '2.4rem',
 };
 
-const heading5 = {
-  ...styling.typography.theme.sansSerif.bold.lg,
-  marginBottom: '2.4rem',
-};
-
-const heading6 = {
-  ...styling.typography.theme.sansSerif.bold.md,
-  marginBottom: '1.9rem',
+const pageTitle = {
+  ...styling.typography.theme.sansSerif.bold['2xl'],
+  marginBottom: '1.82rem',
 };
 
 const footerLink = {
@@ -43,12 +32,10 @@ const footerLink = {
 
 const typographyConstants = {
   body,
-  heading1,
-  heading3,
-  heading4,
-  heading5,
-  heading6,
+  siteBranding,
+  modalHeader,
+  pageTitle,
   footerLink,
-};
+} as const;
 
 export default typographyConstants;
