@@ -17,9 +17,9 @@ const Header = () => {
   return (
     <>
       <header className={styles.container}>
-        <ContentWrapper className={styles.content}>
+        <ContentWrapper as="header" className={styles.content}>
           {isDesktop && <TTFHBrand />}
-          <Typography as="h1" noMargin variant="heading3">
+          <Typography as="h1" noMargin variant="siteBranding">
             Project Structure Boilerplate
           </Typography>
         </ContentWrapper>

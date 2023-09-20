@@ -12,7 +12,7 @@ const DefaultModalContent = ({
   return (
     <div className={styles.modal} onClick={preventClose}>
       <div className={styles.content}>
-        <Typography className={styles.title} variant="heading5">
+        <Typography className={styles.title} variant="modalHeader">
           {title}
         </Typography>
         {body && <Typography variant="body">{body}</Typography>}

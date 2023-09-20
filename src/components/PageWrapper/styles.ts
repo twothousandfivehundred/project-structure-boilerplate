@@ -8,6 +8,7 @@ export default createUseStyles(
       paddingBlock: [
         [styling.sizes.context.guttering, styling.sizes.context.guttering * 2],
       ],
+      minHeight: 1000,
     },
   },
   {
