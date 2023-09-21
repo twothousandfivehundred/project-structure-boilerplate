@@ -25,16 +25,16 @@ export default createUseStyles(
     //
     //
     //
-    containerPropertyDynamicStyle: {
-      height: 5,
-      background: styling.colors.theme.secondaryLight1,
-      width: ({ progress }: ProgressExampleYuckyProps) => `${progress}%`,
-    },
-    containerWholeDynamicStyle: ({ progress }: ProgressExampleYuckyProps) => ({
-      height: 5,
-      background: styling.colors.theme.secondaryLight1,
-      width: `${progress}%`,
-    }),
+    // containerPropertyDynamicStyle: {
+    //   height: 5,
+    //   background: styling.colors.theme.secondaryLight1,
+    //   width: ({ progress }: ProgressExampleYuckyProps) => `${progress}%`,
+    // },
+    // containerWholeDynamicStyle: ({ progress }: ProgressExampleYuckyProps) => ({
+    //   height: 5,
+    //   background: styling.colors.theme.secondaryLight1,
+    //   width: `${progress}%`,
+    // }),
   },
   { name: 'progressExampleYucky' },
 );
